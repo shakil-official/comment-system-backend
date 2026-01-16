@@ -1,0 +1,10 @@
+.DS_Store
+.env
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+.idea
+/backend-comment-system/node_modules
+/frontend-comment-system/node_modules
