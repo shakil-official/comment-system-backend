@@ -79,7 +79,7 @@ interface AuthRequest extends Request {
     user?: { id: string; email: string };
 }
 
-export const me = async (req: AuthRequest, res: Response) => {
+export const me = async (req: Request, res: Response) => {
     try {
         if (!req.user) {
             return res.status(401).json({message: "Unauthorized"});

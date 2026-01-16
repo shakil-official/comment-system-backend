@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import Post, {IPost} from "../models/Post";
 import Comment, { IComment } from "../models/Comment";
 import { buildCommentTree } from "../utils/buildCommentTree";
-import { io } from "../server";
+import { io } from "../index";
 
 /**
  * Create a new post
